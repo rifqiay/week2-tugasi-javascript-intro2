@@ -1,4 +1,3 @@
-// Nomor 1
 // 1 charAt() => mengembalikan karakter pada index tertentu dalam string
 // let text = "HELLO WORLD";
 // let letter = text.charAt(0);
