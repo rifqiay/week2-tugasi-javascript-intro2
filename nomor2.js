@@ -14,15 +14,11 @@ const name = [
   "Olivia",
 ];
 function filterName(str, limit, callback) {
-  try {
-    callback(str);
-    let result = name.filter((name) => name.indexOf(str) !== -1);
-    result = result.slice(0, limit);
-    if (!result.length) throw "Data tidak ditemukan";
-    console.log(result);
-  } catch (error) {
-    console.log(error);
-  }
+  callback(str);
+  let result = name.filter((name) => name.indexOf(str) !== -1);
+  result = result.slice(0, limit);
+  if (!result.length) return;
+  console.log(result);
 }
 function validation(str) {
   try {
@@ -32,4 +28,4 @@ function validation(str) {
   }
 }
 
-filterName(4, 2, validation);
+filterName("an", 2, validation);
