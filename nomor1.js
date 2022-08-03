@@ -24,7 +24,7 @@
 // const pushArr = buah.push("Kiwi", "Lemon");
 // console.log(buah);
 
-// 6 replace() => mengganti string
+// 6 replace() => mengganti data lama menjadi data baru
 // let text = "Hello World!";
 // let result = text.replace("World", "Rifqi");
 // console.log(result);
